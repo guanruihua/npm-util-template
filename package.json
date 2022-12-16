@@ -1,8 +1,8 @@
 {
   "name": "package-name",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "npm 方法 工具包 模板",
+  "author": "ruihuag",
   "module": "lib/index.esm.js",
   "main": "lib/index.js",
   "unpkg": "/lib/",
@@ -12,7 +12,6 @@
   "scripts": {
     "test": "ts-node-dev --respawn --transpile-only ./test/index.ts",
     "build": "npx rollup -c ./config/rollup.build.ts",
-    "build:2": "npx rollup -c --extend ./config/rollup.build.ts",
     "prepare": "husky install",
     "commitlint": "commitlint -e"
   },
@@ -23,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:guanruihua/npm-util-template.git"
   },
   "files": [
     "package.json",
     "README.md",
     "LICENSE"
   ],
-  "bugs": {},
+  "bugs": "https://github.com/guanruihua/npm-util-template/issues",
   "homepage": "",
   "keywords": [],
   "devDependencies": {
